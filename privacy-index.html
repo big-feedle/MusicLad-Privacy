@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MusicLad for Android - Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 32px 20px 64px; max-width: 46rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1b1620; background: #fdfcff;
+  }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 1.2rem; }
+  h2 { font-size: 1.1rem; margin: 2.2rem 0 .6rem; }
+  p, li { color: #3b3340; }
+  code {
+    font: .9em/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+    background: rgba(139, 47, 214, .09); padding: .12em .34em; border-radius: 4px;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .94rem; }
+  th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid rgba(0,0,0,.12); vertical-align: top; }
+  th { font-weight: 600; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #ece7f2; background: #120e18; }
+    p, li { color: #bdb4c6; }
+    code { background: rgba(176, 107, 255, .18); }
+    th, td { border-bottom-color: rgba(255,255,255,.14); }
+  }
+</style>
+</head>
+<body>
+<h1>MusicLad for Android — Privacy Policy</h1>
+<p>Last updated: 19 November 2026</p>
+<p>MusicLad is a music player for files already stored on your device. It has no account, no sign-in, and no analytics. This policy covers the Android apps <strong>MusicLad</strong> (<code>com.musiclad.android</code>) and <strong>MusicLad Free</strong> (<code>com.musiclad.android.free</code>).</p>
+<h2>Data we collect</h2>
+<p>None. We operate no servers and receive no information about you or your use of the app. Nothing you do in MusicLad is reported to us.</p>
+<h2>Data stored on your device</h2>
+<p>MusicLad keeps the following in its own private storage on your phone, where only MusicLad can read it. It is deleted when you uninstall the app.</p>
+<ul><li>Your music library index: file paths, titles, artists, albums, track lengths and other tag data read from your own audio files.</li><li>Your settings, playlists, favourites, queue and resume position.</li><li>Your listening history — what you played and when — used for the Statistics screen in the full version.</li><li>A crash report file, written to the app&#x27;s Documents folder if the app stops unexpectedly, so you can read it or send it to us yourself if you choose.</li></ul>
+<p>None of this is transmitted anywhere.</p>
+<h2>Permissions and why they are needed</h2>
+<ul><li><strong>Music and audio files</strong> (<code>READ_MEDIA_AUDIO</code>, and <code>READ_EXTERNAL_STORAGE</code> on Android 12L and older): to find and play your audio files. Only audio files are read.</li><li><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>): to show the playback notification with the track and its controls.</li><li><strong>Foreground service</strong> (<code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code>): to keep playing while the app is in the background or the screen is off.</li><li><strong>Internet</strong> and <strong>network state</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>): used only for the optional lookups below, and for the desktop remote.</li></ul>
+<h2>When MusicLad uses the network</h2>
+<p>MusicLad makes no network request until you ask for one. When you do, the request goes directly from your device to the service named, and the only information sent is the search terms needed for that lookup — typically a track title, artist or album from your own files. Your identity is not sent, because the app has none to send.</p>
+<table>
+<tr><th>What you ask for</th><th>Where the request goes</th></tr>
+<tr><td>Lyrics lookup, synced lyrics finder (full version)</td><td><code>lrclib.net</code></td></tr>
+<tr><td>Album and track tag lookup, artwork</td><td><code>musicbrainz.org</code>, <code>coverartarchive.org</code>, <code>itunes.apple.com</code></td></tr>
+<tr><td>Artist biographies</td><td><code>en.wikipedia.org</code></td></tr>
+<tr><td>Headphone EQ profiles</td><td><code>raw.githubusercontent.com</code> (the AutoEq project)</td></tr>
+<tr><td>Desktop remote (full version)</td><td>The MusicLad desktop app on your own local network, by the address you enter</td></tr>
+</table>
+<p>Those services are operated by third parties and have their own privacy policies. Each request is also visible to your network operator, as any web request is. If you never use these features, MusicLad makes no network requests at all.</p>
+<p>The desktop remote talks to your own computer over your own network in plain HTTP, because the desktop app has no certificate. That traffic never leaves your network.</p>
+<h2>Children</h2>
+<p>MusicLad is not directed at children and collects no data from anyone.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the updated version is posted at this address with a new date at the top.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: musicladservice@gmail.com</p>
+</body>
+</html>
