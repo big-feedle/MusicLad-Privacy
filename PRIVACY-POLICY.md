@@ -76,4 +76,4 @@ date at the top.
 
 ## Contact
 
-Questions about this policy: 0jamesondrako@gmail.com
+Questions about this policy: musicladservice@gmail.com
